@@ -3,6 +3,7 @@ title: 'Explorations sur la psychologie sociale : Une perspective ingenieur'
 description: 'Essai sur la psychologie sociale'
 pubDate: 'Jan 10 2024'
 heroImage: '/blog-placeholder-3.jpg'
+author: Malo Louboutin
 ---
 
 <p style="text-align: center;">Exposé Malo Louboutin IAI3</p>

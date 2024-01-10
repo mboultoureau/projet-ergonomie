@@ -164,3 +164,17 @@ hr {
 .skip-to-main-content:focus {
 	left: 0;
 }
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #000;
+	color: white;
+}
+
+thead td {
+	border-color: #fff;
+}
