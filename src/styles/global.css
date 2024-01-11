@@ -169,11 +169,26 @@ table, th, td {
 	border-collapse: collapse;
 }
 
+th, td {
+	padding: 0.2em;
+}
+
+table {
+	overflow-x: auto;
+	display: block;
+	font-size: 0.9em;
+}
+
 thead {
 	background-color: #000;
 	color: white;
 }
 
-thead td {
+thead th {
 	border-color: #fff;
+}
+
+td.numeric {
+	text-align: right;
+	font-variant-numeric: tabular-nums;
 }

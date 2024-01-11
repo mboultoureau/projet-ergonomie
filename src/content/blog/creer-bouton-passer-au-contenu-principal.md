@@ -14,7 +14,7 @@ Voici comment mettre cela en place sur votre propre site. Tout d'abord ajouter u
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 	<head>
 	</head>
 	<body>

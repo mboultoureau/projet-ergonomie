@@ -36,77 +36,79 @@ Cette expérience souligne l'influence importante de la présentation sur nos ju
 
 Les chercheurs Chris Janiszewski et Dan Uy ont revisité la notion d'ancrage, initialement étudiée par Tversky et Kahneman, pour explorer les moyens de renforcer cet effet. Leur étude visait à déterminer si la précision des chiffres utilisés comme ancrage avait une incidence significative sur l'ampleur de l'effet d'ancrage.
 
-Pour ce faire, ils ont exposé trois groupes à l'estimation de diverses valeurs, telles que des prix, des hauteurs ou des poids de différents produits. Le premier groupe a été présenté avec des valeurs arrondies, le deuxième avec des valeurs plus précises, mais légèrement en dessous des valeurs arrondies, tandis que le troisième devait estimer des valeurs précises, légèrement au-dessus des valeurs arrondies. Par exemple, pour estimer la valeur d'une maison en bord de plage, le premier groupe voyait un panneau affichant 800 000 $, le second 799 800 $, et le troisième 800 200 $. Les résultats ont indiqué que les groupes exposés à des valeurs plus précises ont donné des estimations plus proches en moyenne des montants affichés. Toutefois, il est intéressant de noter que le fait que la valeur soit au-dessus ou en dessous de l'arrondi n'a pas eu d'impact sur l'effet d'ancrage observé.
+<p id="tableau-chris-dan">
+    Pour ce faire, ils ont exposé trois groupes à l'estimation de diverses valeurs, telles que des prix, des hauteurs ou des poids de différents produits. Le premier groupe a été présenté avec des valeurs arrondies, le deuxième avec des valeurs plus précises, mais légèrement en dessous des valeurs arrondies, tandis que le troisième devait estimer des valeurs précises, légèrement au-dessus des valeurs arrondies. Par exemple, pour estimer la valeur d'une maison en bord de plage, le premier groupe voyait un panneau affichant 800 000 $, le second 799 800 $, et le troisième 800 200 $. Les résultats ont indiqué que les groupes exposés à des valeurs plus précises ont donné des estimations plus proches en moyenne des montants affichés. Toutefois, il est intéressant de noter que le fait que la valeur soit au-dessus ou en dessous de l'arrondi n'a pas eu d'impact sur l'effet d'ancrage observé.
+</p>
 
-<table style="margin-bottom: 2em;">
+<table style="margin-bottom: 2em;" aria-describedby="tableau-chris-dan">
     <caption>Extrait du tableau ici de l’étude de Chris Janiszewski et Dan Uy</caption>
     <thead>
         <tr>
-            <td colspan="2"></td>
-            <td colspan="3">Valeur affiché</td>
-            <td colspan="3">Moyenne des participants</td>
+            <th colspan="2"></th>
+            <th colspan="3">Valeur affiché</th>
+            <th colspan="3">Moyenne des participants</th>
         </tr>
         <tr>
-            <td>Scénario</td>
-            <td>Mesure</td>
-            <td>Ancrage arrondi</td>
-            <td>Ancrage précis en dessous</td>
-            <td>Ancrage précis au dessus</td>
-            <td>Ancrage arrondi</td>
-            <td>Ancrage précis en dessous</td>
-            <td>Ancrage précis au dessus</td>
+            <th>Scénario</th>
+            <th>Mesure</th>
+            <th>Ancrage arrondi</th>
+            <th>Ancrage précis en dessous</th>
+            <th>Ancrage précis au dessus</th>
+            <th>Ancrage arrondi</th>
+            <th>Ancrage précis en dessous</th>
+            <th>Ancrage précis au dessus</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Maison au bord de la plage</td>
             <td>Prix de la maison (en $)</td>
-            <td>800.000</td>
-            <td>799.800</td>
-            <td>800.200</td>
-            <td>751.867</td>
-            <td>784.671</td>
-            <td>778.264</td>
+            <td class="numeric">800.000</td>
+            <td class="numeric">799.800</td>
+            <td class="numeric">800.200</td>
+            <td class="numeric">751.867</td>
+            <td class="numeric">784.671</td>
+            <td class="numeric">778.264</td>
         </tr>
         <tr>
             <td>Boisson</td>
             <td>Protéines (en grammes)</td>
-            <td>10</td>
-            <td>9.8</td>
-            <td>10.2</td>
-            <td>8.28</td>
-            <td>9.28</td>
-            <td>9.41</td>
+            <td class="numeric">10</td>
+            <td class="numeric">9.8</td>
+            <td class="numeric">10.2</td>
+            <td class="numeric">8.28</td>
+            <td class="numeric">9.28</td>
+            <td class="numeric">9.41</td>
         </tr>
         <tr>
             <td>Fromage</td>
             <td>Prix (en $)</td>
-            <td>5</td>
-            <td>4.85</td>
-            <td>5.15</td>
-            <td>3.75</td>
-            <td>4.17</td>
-            <td>4.41</td>
+            <td class="numeric">5</td>
+            <td class="numeric">4.85</td>
+            <td class="numeric">5.15</td>
+            <td class="numeric">3.75</td>
+            <td class="numeric">4.17</td>
+            <td class="numeric">4.41</td>
         </tr>
         <tr>
             <td>Hummer</td>
             <td>Hauteur (en mètres)</td>
-            <td>2.3</td>
-            <td>2.28</td>
-            <td>2.32</td>
-            <td>2.05</td>
-            <td>2.15</td>
-            <td>2.20</td>
+            <td class="numeric">2.3</td>
+            <td class="numeric">2.28</td>
+            <td class="numeric">2.32</td>
+            <td class="numeric">2.05</td>
+            <td class="numeric">2.15</td>
+            <td class="numeric">2.20</td>
         </tr>
         <tr>
             <td>Stylo</td>
             <td>Vie (en kilomètres)</td>
-            <td>4</td>
-            <td>3.998</td>
-            <td>4.002</td>
-            <td>3.52</td>
-            <td>3.81</td>
-            <td>3.85</td>
+            <td class="numeric">4</td>
+            <td class="numeric">3.998</td>
+            <td class="numeric">4.002</td>
+            <td class="numeric">3.52</td>
+            <td class="numeric">3.81</td>
+            <td class="numeric">3.85</td>
         </tr>
     </tbody>
 </table>
