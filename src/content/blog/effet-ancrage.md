@@ -2,7 +2,7 @@
 title: 'L''effet d''ancrage'
 description: ''
 pubDate: 'Jan 09 2024'
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/effet-ancrage.png'
 author: Mathis Boultoureau
 ---
 

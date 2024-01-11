@@ -7,9 +7,9 @@ import { SITE_TITLE } from '../consts';
 	<nav>
 		<h2><a href="/projet-ergonomie">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/">Accueil</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/contact">Contact</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://github.com/mboultoureau/projet-ergonomie" target="_blank">
@@ -25,6 +25,22 @@ import { SITE_TITLE } from '../consts';
 	</nav>
 </header>
 <style>
+	h2, .internal-links, .social-links {
+		flex: 1;
+	}
+
+	.internal-links {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.social-links {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
 	header {
 		margin: 0;
 		padding: 0 1em;
@@ -62,6 +78,10 @@ import { SITE_TITLE } from '../consts';
 	@media (max-width: 720px) {
 		.social-links {
 			display: none;
+		}
+
+		.internal-links {
+			justify-content: flex-end;
 		}
 	}
 </style>
