@@ -3,6 +3,7 @@ title: 'Mes notes de cours et mes expériences en lien avec la psychologie socia
 description: 'Résumé de cours et expériences personelles'
 pubDate: 'Jan 11 2024'
 heroImage: '/blog-placeholder-3.jpg'
+author: Emilie Daniel
 ---
 
 <p style="text-align: center;">Exposé Emilie Daniel IAI3</p>
